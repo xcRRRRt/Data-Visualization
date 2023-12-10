@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="60776eabb1154b85a72075da4aa8abe4" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_60776eabb1154b85a72075da4aa8abe4 = echarts.init(
+            document.getElementById('60776eabb1154b85a72075da4aa8abe4'), 'white', {renderer: 'canvas'});
+        var option_60776eabb1154b85a72075da4aa8abe4 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "parallel",
+            "coordinateSystem": "parallel",
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "name": "MDX",
+            "data": [
+                [
+                    6,
+                    9,
+                    6,
+                    6,
+                    7,
+                    5,
+                    8,
+                    6,
+                    7,
+                    8,
+                    10,
+                    6
+                ]
+            ],
+            "smooth": false
+        },
+        {
+            "type": "parallel",
+            "coordinateSystem": "parallel",
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "name": "LZ",
+            "data": [
+                [
+                    7,
+                    3,
+                    8,
+                    9,
+                    5,
+                    10,
+                    5,
+                    7,
+                    6,
+                    9,
+                    8,
+                    10
+                ]
+            ],
+            "smooth": false
+        },
+        {
+            "type": "parallel",
+            "coordinateSystem": "parallel",
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "name": "LH",
+            "data": [
+                [
+                    9,
+                    7,
+                    9,
+                    8,
+                    9,
+                    7,
+                    10,
+                    7,
+                    9,
+                    7,
+                    4,
+                    8
+                ]
+            ],
+            "smooth": false
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "MDX",
+                "LZ",
+                "LH"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "parallel": {
+        "left": "5%",
+        "right": "13%",
+        "bottom": "10%",
+        "top": "20%",
+        "axisExpandable": false,
+        "axisExpandCount": 0,
+        "axisExpandWidth": 50,
+        "axisExpandTriggerOn": "click"
+    },
+    "parallelAxis": [
+        {
+            "dim": 0,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u9886\u5bfc\u529b",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 1,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u8fd0\u6c14",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 2,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u51b3\u65ad\u529b",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 3,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u6267\u884c\u529b",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 4,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u6c9f\u901a\u80fd\u529b",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 5,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u81ea\u5f8b",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 6,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u793e\u4ea4\u80fd\u529b",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 7,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u5bb6\u5883",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 8,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u56e2\u961f\u5408\u4f5c",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 9,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u9002\u5e94\u80fd\u529b",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 10,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u60c5\u7eea\u7a33\u5b9a",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        },
+        {
+            "dim": 11,
+            "parallelIndex": 0,
+            "realtime": true,
+            "name": "\u4e13\u4e1a\u80fd\u529b",
+            "name_location": "end",
+            "name_gap": 15,
+            "inverse": false,
+            "min": 0,
+            "max": 10,
+            "scale": false,
+            "logBase": 10,
+            "silent": false,
+            "triggerEvent": false
+        }
+    ],
+    "title": [
+        {
+            "show": true,
+            "text": "\u6bd4\u8f83\u5404\u9879\u7279\u8d28",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_60776eabb1154b85a72075da4aa8abe4.setOption(option_60776eabb1154b85a72075da4aa8abe4);
+    </script>
+</body>
+</html>
