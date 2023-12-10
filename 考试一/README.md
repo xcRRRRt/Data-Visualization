@@ -1,0 +1,10 @@
+# 大数据可视化考题一  
+get-gxef.ipynb: 对文本进行处理，获得图文件  
+names.txt: 自定义词典  
+nodes.csv: 所有节点的数据，包括中心性等数据  
+Visualize.ipynb: 可视化  
+射雕英雄传.gephi: 经过调整的图  
+射雕英雄传.gexf: 原始图  
+射雕英雄传.pdf: 使用gephi导出的可视化图  
+射雕英雄传.png: 使用gephi导出的可视化图  
+射雕英雄传.txt: 《射雕英雄传》原文
