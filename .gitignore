@@ -1,5 +1,6 @@
 *.zip
 *.doc
 *.docx
+*.zip
 
 /.vscode/
